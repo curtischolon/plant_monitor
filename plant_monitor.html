@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Plant Monitor</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
 </head>
 <body>
-    <iframe src="http://10.0.0.117" frameborder="0" width="600px" height="600px">Plant Room</iframe>
-    <iframe src="http://10.0.0.143" frameborder="0" width="600px" height="600px">Garage</iframe>
-    <iframe src="http://10.0.0.185" frameborder="0" width="600px" height="600px"></iframe>
+    <div class="container">
+        <iframe src="http://10.0.0.117" frameborder="0" width="600px" height="600px">Plant Room</iframe>
+        <iframe src="http://10.0.0.143" frameborder="0" width="600px" height="600px">Garage</iframe>
+        <iframe src="http://10.0.0.185" frameborder="0" width="600px" height="600px"></iframe>
+    </div>
 </body>
 </html>
